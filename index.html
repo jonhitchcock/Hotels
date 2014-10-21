@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Embankment Hotels</title>
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="bootstrap-theme.css" />
+<link rel="stylesheet" href="css/rs_searchbox.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/functions.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Embankment Hotels" width="283" height="50">
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#hotels">Hotels</a></li>
+            <li><a href="#rental-cars">Rental Cars</a></li>
+            <li><a href="#event-tickets">Event Tickets</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	<section id="home" data-speed="4" data-type="background">
+   	 	<div class="container">
+        <div id="home_search">
+<div class="mainWrapper" style="margin:auto;">
+	<div id="rs_multi" class='rs_searchbox'>
+    <h2>Search Embankment Hotels</h2>
+		<form name="hotel" class="rs_hotel_form">
+			<div class='rs_form_row rs_date rs_chk_in_row'>
+				<div class='rs_date_input_container'>
+					<span style="color:#1a80b6;">Check in:</span><input name="check_in" class="rs_chk_in" title='Enter your check in date.' type='text' autocomplete="off"  value="mm/dd/yyyy">
+				</div>
+			</div>
+			<div class='rs_form_row rs_date rs_chk_out_row rs_no_margin'>
+				<div class='rs_date_input_container'>
+					<span style="color:#1a80b6;">Check out:</span><input name="check_out" class="rs_chk_out" type='text' title='Enter your check out date.' value="mm/dd/yyyy">
+				</div>
+			</div>
+			<div class='rs_mobi'><div class='rs_mobi_date_container rs_mobi_in'>
+				<div class='rs_mobi_title'>Check-in</div>
+				<div class='rs_date_chk_in'>
+					<div class='rs_mobi_chk_day'>Day</div>
+					<div class='rs_mobi_chk_month'>Month</div>
+				</div>
+			</div>
+			<div class='rs_mobi_date_container rs_mobi_out'>
+				<div class='rs_mobi_title'>Check-out</div>
+				<div class='rs_date_chk_out'>
+					<div class='rs_mobi_chk_day'>Day</div>
+					<div class='rs_mobi_chk_month'>Month</div>
+				</div>
+			</div>
+			<div class='clear'></div>
+			</div>
+			<div class='rs_form_row rs_rooms_row'>
+				<span style="color:#1a80b6;">Number of Rooms:</span><select class="rs_rooms" name="rooms" title='Number of Rooms'></select>
+			</div>
+			<div class='rs_form_row rs_guest_row'>
+				<span style="color:#1a80b6;">Number of Guests:</span><select name="adults" class="rs_select_box js_guest_select"></select>
+			</div>
+			<div class='clear'></div>
+			<div class='rs_button_row'>
+				<button type="submit" class="rs_search" title='Search'>Check Rates</button>
+			</div>	
+			<div class='clear'></div>
+		</form>
+	</div>
+</div>
+</div>
+    	</div>
+	</section>
+    <section style="margin-top:50px;">
+    <div class="container">
+    <h1 class="center_page">London's <span class="blue_span">Thames Embankment Hotels</span></h1>
+    <p class="tooltip-examples">Welcome to London! Embankment Hotels offers the best rates on hotels near the Embankment in London. The hotels we offer have all been inspected and reviewed by AAA, and Mobile Travel Guide both of which are the authorities in Hotel quality and control. Book using our great search feature or hotel list to get the best prices available. Featuring hotels near <a href="#" data-toggle="tooltip" data-original-title="Embankment Hotels!">London’s Famous Thames Embankment</a> located adjacent to <a href="#" data-toggle="tooltip" data-original-title="Big Ben Hotels!">Big Ben</a>, <a href="#" data-toggle="tooltip" data-original-title="Parliament Square Hotels!">Parliament Square</a>, &amp; <a href="#" data-toggle="tooltip" data-original-title="Victoria Embankment Gardens Hotels!">Victoria Embankment Gardens</a>. Book your room Securely online now for the best rates available for your stay near London’s Beautiful Embankment!</p>
+     <hr>
+    </div>
+    </section>
+    <section>
+    <div class="container">
+    <h2>Featured Hotels:</h2>
+    <div class="row">
+  <div class="col-md-4"><img alt="" src="images/citadines-prestige-trafalgar-square.jpg" width="288" height="167" /><br />
+<h2 class="featured_hotel">Citadines Prestige Trafalgar</h2>
+<p class="post-price"><span class="price">Starting from £148</span></p>
+<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui varius, porttitor diam id, pulvinar sem. Aenean risus felis, eleifend vitae mattis eget, sodales sit amet odio. Proin commodo ultrices augue vitae ornare. Donec eleifend ornare lorem eu tristique. Praesent mattis nibh sed arcu fermentum mattis. Duis eleifend, ex in porta consequat, enim nulla aliquam augue, et cursus felis lorem ut leo. <a href="#hotel">Learn More!</a></p><a href="#hotel"><span class="post_button">Book Now!</span></a></div>
+
+  <div class="col-md-4"><img alt="" src="images/the-royal-horseguards.jpg" width="288" height="167" /><br />
+<h2 class="featured_hotel">The Royal Horseguards</h2>
+<p class="post-price"><span class="price">Starting from £165</span></p>
+<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui varius, porttitor diam id, pulvinar sem. Aenean risus felis, eleifend vitae mattis eget, sodales sit amet odio. Proin commodo ultrices augue vitae ornare. Donec eleifend ornare lorem eu tristique. Praesent mattis nibh sed arcu fermentum mattis. Duis eleifend, ex in porta consequat, enim nulla aliquam augue, et cursus felis lorem ut leo. <a href="#hotel">Learn More!</a></p><a href="#hotel"><span class="post_button">Book Now!</span></a></div>
+
+  <div class="col-md-4"><img alt="" src="images/one-aldwych-hotel.jpg" width="288" height="167" /><br />
+<h2 class="featured_hotel">One Aldwych</h2>
+<p class="post-price"><span class="price">Starting from £295</span></p>
+<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui varius, porttitor diam id, pulvinar sem. Aenean risus felis, eleifend vitae mattis eget, sodales sit amet odio. Proin commodo ultrices augue vitae ornare. Donec eleifend ornare lorem eu tristique. Praesent mattis nibh sed arcu fermentum mattis. Duis eleifend, ex in porta consequat, enim nulla aliquam augue, et cursus felis lorem ut leo. <a href="#hotel">Learn More!</a></p><a class="post-bottom" href="#hotel"><span class="post_button">Book Now!</span></a></div>
+	</div>
+    <hr>
+	</div>
+    </section>
+    <section>
+    <div class="container">
+    <h2>Find Hotels on the Map!</h2>
+	<div id="map-canvas"></div>
+    <hr>
+    </div>
+    </section>
+    <section>
+    <div class="container">
+    <h2 class="heading_top">Thames Embankment Information:</h2>
+    <div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        + Click Here for more Information about Thames Embankment
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <p>London’s Embankment Station is a busy station located in the City of Westminster. This station has been known by many different names in its history, and provides users with access to the Victoria Embankment, which forms part of the greater Thames Embankment. This area along the River Thames runs from the Palace of Westminster to Blackfriars Bridge. It can be accessed by both the Victoria Embankment and an entrance on nearby Villiers Street.</p>
+<p>Embankment Station is served by multiple lines of the London Underground, also known as the Tube. 6 platforms service the Northern, Bakerloo, District, and Circle lines. Embankment station can also be accessed by bus services that run through the local area.</p>
+<p>Originally opened in 1870, London Embankment station was first outfitted with sub-surface platforms. Due to the need for extra transport lines, a deep-level platform and train system was deployed in 1897, after Parliament lent its support for the project. Those trains did not officially begin operating until 1906.</p>
+<p>This station is located within zone one of London. Nearby transportation spots of interest include Waterloo Station and Charing Cross. These stations can either be reached by taking one of the lines from the Embankment Station, or instead by walking to their respective locations.</p>
+<p>In addition to nearby transport links, there are several iconic London landmarks that can be accessed by disembarking at the Embankment Station. These landmarks include Cleopatra’s needle and the Royal Air Force Memorial. London’s famed Savoy Hotel is also nearby.</p>
+<p>There are a fair share of amenities that passengers can utilize at the station, including ticket halls and payphones. Help points are also located in the station, where workers provide guidance to those who may be unfamiliar with the surrounding area. ATMs are also located in the station, allowing those in need of cash to withdraw money at the facility. There are no elevators servicing the station, meaning those with a physical handicap may need to utilize other transportation services in the nearby area.</p> 
+<p>Embankment Station has seen a fair share of incidents during its long history, with accidents occurring from time to time within the tunnels. Nevertheless, it continues to remain in operation today, serving as a vital link within London’s underground system. It is estimated that some 20 million passengers use the station each year.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <hr>
+    </div>
+    </section>
+    <section>
+    <div class="container">
+    <h2>Hotels Near Thames Embankment:</h2>
+    <div class="row">
+    <div class="col-md-4"><img alt="" src="images/club-quarters-trafalgar-square.jpg" width="288" height="167" /></div>
+ 	<div class="col-md-8"><h2 class="list_headings">One Aldwych</h2><p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui varius, porttitor diam id, pulvinar sem. Aenean risus felis, eleifend vitae mattis eget, sodales sit amet odio. Proin commodo ultrices augue vitae ornare. Donec eleifend ornare lorem eu tristique. Praesent mattis nibh sed arcu fermentum mattis. Duis eleifend, ex in porta consequat, enim nulla aliquam augue, et cursus felis lorem ut leo. <a href="#hotel">Learn More!</a></p><a class="post-bottom" href="#hotel"><span class="post_button right">Book Now!</span></a></div>
+	</div>
+    <hr>
+    </div>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-4"><img alt="" src="images/the-savoy-hotel.jpg" width="288" height="167" /></div>
+ 	<div class="col-md-8"><h2 class="list_headings">The Savoy</h2><p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dui varius, porttitor diam id, pulvinar sem. Aenean risus felis, eleifend vitae mattis eget, sodales sit amet odio. Proin commodo ultrices augue vitae ornare. Donec eleifend ornare lorem eu tristique. Praesent mattis nibh sed arcu fermentum mattis. Duis eleifend, ex in porta consequat, enim nulla aliquam augue, et cursus felis lorem ut leo. <a href="#hotel">Learn More!</a></p><a class="post-bottom" href="#hotel"><span class="post_button right">Book Now!</span></a></div>
+	</div>
+    </div>
+    </section>
+    <end></end>
+    <div class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright 2014 Embankment Hotels | All Rights Reserved</p>
+      </div>
+    </div>
+</body>
+</html>

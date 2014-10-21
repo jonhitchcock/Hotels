@@ -1,0 +1,88 @@
+body { margin:0; padding:0; font-family: Arial, sans-serif; }
+a img { border:none; }
+
+.mainWrapper { width:100%; max-width:600px; margin:25px; }
+
+.mainWrapper .rs_searchbox{ width:100%; width:calc(100% - 30px); height:100%; text-align:left; width:-webkit-calc(100% - 30px); margin:0; color:white; background: #e5e5e5, .8; background: -moz-linear-gradient(top, #e5e5e5 0%, #d0d0d0 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#d0d0d0)); background: -webkit-linear-gradient(top, #e5e5e5 0%,#d0d0d0 100%); background: -o-linear-gradient(top, #e5e5e5 0%,#d0d0d0 100%); background: -ms-linear-gradient(top, #e5e5e5 0%,#d0d0d0 100%); background: linear-gradient(to bottom, #e5e5e5 0%,#d0d0d0 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#d0d0d0',GradientType=0 ); font-weight:400; padding:5px 15px 15px 20px; position:relative; font-size:16px; font-family:Arial, Helvetica, sans-serif; vertical-align:middle;-moz-border-radius:15px; -webkit-border-radius:15px; -khtml-border-radius:15px; border-radius:15px; /* Fallback for web browsers that doesn't support RGBa */ background: rgb(229, 229, 229) transparent; /* RGBa with 0.6 opacity */ background: rgba(229, 229, 229, 0.8); }
+.mainWrapper .rs_searchbox form { clear:both; }
+.mainWrapper .rs_searchbox h2 { font-size: 34px !important; font-family: 'Antic Slab', Arial, Helvetica, sans-serif; line-height: 30px; color:#474747; text-decoration: none; background-color: transparent; border-width: 0px; border-color: #222222; border-style: none; text-align:center; margin:30px 0px !important; }
+.mainWrapper .rs_searchbox .rs_searchbox_hide { display:none; }
+
+.mainWrapper .rs_searchbox .rs_no_margin { margin-right:0 !important; }
+
+input[type='text']::-ms-clear { display: none; }
+select,
+.mainWrapper .rs_searchbox .rs_autosuggest,
+.mainWrapper .rs_searchbox .rs_from,
+.mainWrapper .rs_searchbox .rs_to,
+.mainWrapper .rs_searchbox .rs_chk_in,
+.mainWrapper .rs_searchbox .rs_chk_out,
+.mainWrapper .rs_searchbox .rs_rooms,
+.mainWrapper .rs_searchbox .rs_time_in,
+.mainWrapper .rs_searchbox .rs_time_out,
+.mainWrapper .rs_searchbox .rooms,
+.mainWrapper .rs_searchbox .rs_select_box{ border:1px solid #bbb; font-size:12px; color:#636363; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; }
+.mainWrapper .rs_searchbox .rs_form_row { margin-bottom:8px; }
+.mainWrapper .rs_searchbox .rs_autosuggest_row{display:none;}
+
+.mainWrapper .rs_searchbox .rs_vp_form .rs_rooms_row { display:inline-block; width:31%; margin-right:2%; *float:left; }
+.mainWrapper .rs_searchbox .rs_vp_form .rs_button_row{ width:100%; }
+
+.mainWrapper .rs_searchbox .rs_air_form .rs_air_options .rs_air_option { display:block; width:32.5%; float:left; text-align:center; background-color:#ddd; border-right:1px solid #bbb; border-left:1px solid #eee; margin-bottom:8px; color:#333; font-size:12px; }
+.mainWrapper .rs_searchbox .rs_air_form .rs_air_options .rs_air_option label { display:block; cursor:pointer; padding:5px 0; }
+.mainWrapper .rs_searchbox .rs_air_form .rs_air_options .air_highlight { background-color:#3399cc; border-left:1px solid #3399cc; color:white; }
+.mainWrapper .rs_searchbox .rs_air_form .rs_air_options #rs_first_air { border-left:none; -webkit-border-top-left-radius:6px; -webkit-border-bottom-left-radius:6px; -moz-border-radius-topleft:6px; -moz-border-radius-bottomleft:6px; border-top-left-radius:6px; border-bottom-left-radius:6px; }
+.mainWrapper .rs_searchbox .rs_air_form .rs_air_options #rs_last_air { border-right:none; -webkit-border-top-right-radius:6px; -webkit-border-bottom-right-radius:6px; -moz-border-radius-topright:6px; -moz-border-radius-bottomright:6px; border-top-right-radius:6px; border-bottom-right-radius:6px; }
+.mainWrapper .rs_searchbox .rs_air_form .rs_air_options .rs_air_option input { display:none; float:left; margin:2px 3px 0 0; vertical-align:middle; }
+.mainWrapper .rs_searchbox .rs_air_form .rs_rooms_row { display:inline-block; width:31%; margin-right:2%; *float:left; }
+.mainWrapper .rs_searchbox .rs_air_form .rs_button_row{ width:100%; }
+
+.mainWrapper .rs_searchbox .rs_car_form .rs_date { display:inline-block; }
+.mainWrapper .rs_searchbox .rs_car_form .rs_form_row { width:48%; margin-right:2%; }
+
+.mainWrapper .rs_searchbox .rs_autosuggest, .mainWrapper .rs_searchbox .rs_from, .mainWrapper .rs_searchbox .rs_to { height:20px; width:100%; width:calc(100% - 12px); width:-webkit-calc(100% - 12px); padding:5px; }
+
+.mainWrapper .rs_searchbox .rs_droppff_div, #air_one_way, #air_multi_dest { display: none; }
+
+.mainWrapper .rs_searchbox .rs_date_input_container{ display:block; position:relative; cursor:pointer; }
+.mainWrapper .rs_searchbox .rs_date_input_container input{ display:block; }
+.mainWrapper .rs_searchbox .rs_chk_in,
+.mainWrapper .rs_searchbox .rs_chk_out{ cursor:pointer; background-image:url(../images/calendar.gif); background-position:right; background-repeat:no-repeat; height:40px; width:100%; width:calc(100% - 2px); width:-webkit-calc(100% - 2px);  padding:5px; float:left; margin-bottom:5px;display:inline-block;}
+
+.mainWrapper .rs_searchbox .rs_mobi { display:none; }
+.mainWrapper .rs_searchbox .rs_mobi_date_container{ width:45%; color:#333; background-color:white; display:none; zoom:1; border:1px solid #969696; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; text-align: center; margin-bottom:12px; }
+.mainWrapper .rs_searchbox .rs_mobi_title{ background:#e4e4e4; padding:7px 0; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius-topleft: 4px; -moz-border-radius-topright: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.mainWrapper .rs_searchbox .rs_mobi_chk_day{ font-size:45px; font-weight:bold; margin:7px 0; }
+.mainWrapper .rs_searchbox .rs_mobi_chk_month{ margin-bottom:7px; }
+.mainWrapper .rs_searchbox .rs_mobi_in{ float:left; }
+.mainWrapper .rs_searchbox .rs_mobi_out{ float:right; }
+
+.mainWrapper .rs_searchbox .rs_date,
+.mainWrapper .rs_searchbox .rs_people{display:inline-block; width:100%; width:calc(100% - 12px); width:-webkit-calc(100% - 12px);}
+.mainWrapper .rs_searchbox .rs_rooms_row{display:inline-block; width:48%; margin-right:3%; vertical-align: middle; *float:left; }
+.mainWrapper .rs_searchbox .rs_guest_row{display:inline-block; width:48%; margin-right:0%; vertical-align: middle; *float:left; }
+
+.mainWrapper .rs_searchbox .rs_select_box,
+.mainWrapper .rs_searchbox .rs_rooms, 
+.mainWrapper .rs_searchbox .pax,
+.mainWrapper .rs_searchbox .rs_time,  
+.mainWrapper .rs_searchbox .rooms{ width:100%; display:inline-block; height:32px; padding:5px; }
+
+.rs_form_row label{ font-size: 12px; }
+
+#childrens_ages { display:none; }
+#childrens_ages span{ margin: 0 0 13px 0; font-size: 14px; display:block; }
+#childrens_ages select { margin: 0 0 13px 0; margin-right: 2%; min-height: 32px; }
+
+.air_multi_seperator { width: 100%; display: block; }
+.air_flight_3, .air_flight_4, .air_flight_5 { display: none; }
+.add_rem_flight { display:block; cursor: pointer; color: #005baa; font-size: 14px; margin: 5px 0; }
+.add_rem_flight:hover { color: #000; text-decoration: underline; }
+#rs_air h2 { font-size: 24px; color: #333; }
+#rs_air h3 { font-size: 20px; color: #333; }
+
+.mainWrapper .rs_searchbox .rs_button_row{ width:100%; display:inline-block; vertical-align: middle; position:relative; padding-top:25px; }
+.mainWrapper .rs_searchbox .rs_search { background: #1a80b6;border: 1px solid #032b59; outline:none; width:100%; max-width:290px; height:42px; text-shadow:0 1px 3px #888; float:right; margin:0; color: #fff; font-size:17px; cursor: pointer; text-align:center; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; }
+.mainWrapper .rs_searchbox .rs_search:hover { background: #2099ce; border-color:#1a80b6; }
+.mainWrapper .rs_searchbox .rs_home_searchbox_contain{ padding:10px 0; background:#0e1892; background-size:100% auto; }
+.mainWrapper .rs_searchbox .rs_search_icon { float:right; display:block; margin-top:3px; }
